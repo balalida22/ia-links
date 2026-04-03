@@ -1,0 +1,41 @@
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  line-height: 1.6;
+}
+h1 {
+  color: #333;
+}
+h2 {
+  color: #555; /* Slightly darker than original body text */
+  margin-top: 30px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1.1em;
+  /* Added 'display: block' and 'margin-bottom' to replace li functionality */
+  display: block;
+  margin-bottom: 10px;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+table {
+  border-collapse: collapse;
+  /* width: 100%; */
+}
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+  text-align: left;
+}
+th {
+  background-color: #f4f4f4;
+}
